@@ -79,6 +79,7 @@ cluster_user: admin
 cluster_user_password: admin
 cluster_system_admin: "system:admin"
 service_catalog_user: "system:serviceaccount:service-catalog:default"
+scc_anyuid: False
 
 service_catalog_tag: "canary"
 svc_cat_apiserver_img_no_tag: "quay.io/kubernetes-service-catalog/apiserver"
